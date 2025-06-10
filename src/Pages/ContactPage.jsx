@@ -1,4 +1,5 @@
-import Header from "./Component/Header/Header"
+import Header from "../Component/Header/Header";
+
 const ContactPage = () => {
     return(
         <div>

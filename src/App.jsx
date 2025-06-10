@@ -1,18 +1,19 @@
 
-import {BrowserRouter as Router , Routers , Route} from 'react-router-dom'
+import {BrowserRouter as Router , Routes , Route} from 'react-router-dom'
 import Home from './Pages/Home';
 import AboutPage from './Pages/AboutPage';
 import Courses from './Pages/Courses';
-import ContactUs from './Pages/ContactPage';
+import ContactPage from './Pages/ContactPage';
+
 const App = () => {
   return(
    <Router>
-    <Routers>
-      <Route path="/Home"element={<Home/>}/>
-      <Route path="/AboutPage"element={<AboutPage/>}/>
-      <Route path="/Courses"element={<Courses/>}/>
-      <Route path="/ContactUs"element={<ContactUs/>}/>
-    </Routers>
+    <Routes>
+      <Route path="/home" element={<Home/>}/>
+      <Route path="/aboutPage" element={<AboutPage/>}/>
+      <Route path="/courses" element={<Courses/>}/>
+      <Route path="/contactUs" element={<ContactPage/>}/>
+    </Routes>
    </Router>
    
   )

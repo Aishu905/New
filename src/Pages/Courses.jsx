@@ -1,4 +1,4 @@
-import Header from "./Cpmponent/Header/Header"
+import Header from "../Component/Header/Header"
 const Courses = () => {
     return(
         <div>
@@ -82,4 +82,4 @@ const Courses = () => {
         </div>
     )
 }
-export default CoursePage;
+export default Courses;
