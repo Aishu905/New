@@ -3,7 +3,7 @@ const Header = () => {
     return (
         <header>
             <nav>
-                <Link to="/home">Home</Link>
+                <Link to="/">Home</Link>
                 <Link to="/AboutPage">AboutPage</Link>
                 <Link to="/Courses">Courses</Link>
                 <Link to="/ContactUs">ContactUs</Link>
