@@ -1,4 +1,6 @@
+<ChatbotComponent/>
 import react from 'react'
+import ChatbotComponent from '../Chatbot/ChatbotComponents'
 const Footer = () => {
     return(
         <div> 

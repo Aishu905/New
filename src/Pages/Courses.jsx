@@ -7,7 +7,7 @@ const Courses = () => {
             <p>Vivekanand College offers a comprehensive range of undergraduate and postgraduate programs designed to equip students with the knowledge and skills demanded by today's dynamic global landscape. Our curriculum is regularly updated to reflect industry trends and academic advancements.</p>
             <h1>Discover campus life</h1>
             <video>
-                <source src="C:\Users\Admin\Downloads\college-tour-FAmcnyfF.mp4"type="mp4"/>
+                <source src="https://vck.codewonders.in/assets/college-tour-FAmcnyfF.mp4"type="video/mp4"/>
             </video>
             <h1>undergraduate programs</h1>
             <ul>
@@ -43,35 +43,33 @@ const Courses = () => {
             <tr>
                 <th>program type</th>
                 <th>course name</th>
-                <th>annual fee</th>
                 <th>duration</th>
+                <th>annual fee</th>
                 <th>eligibility</th>
             </tr>
+            <tbody>
             <tr>
             <td>ug</td>
-            <td>ug</td>
-            <td>ug</td>
+            <td>B.s.c computer science</td>
+            <td>3 years</td>
+            <td>₹ 85,000</td>
+            <td>10+2 with PCM (50%)</td>
             </tr>
             <tr>
-               <td>B.Sc. Computer Science</td> 
+               <td>ug</td> 
                <td>B.Com. Accounting & Finance</td>
-               <td>M.Sc. Information Technology</td>
+               <td>3 years</td>
+               <td>₹ 70,000</td>
+               <td>10+2 Commerce (45%)</td>
             </tr>
             <tr>
-                <td>3 years</td>
-                <td>3 years</td>
+                <td>ug</td>
+                <td>M.Sc. Information Technology</td>
                 <td>2 years</td>
-            </tr>
-            <tr>
-                <td>₹ 85,000</td>
-                <td>₹ 70,000</td>
                 <td>₹ 95,000</td>
-            </tr>
-            <tr>
-                <td>10+2 with PCM (50%)</td>
-                <td>10+2 Commerce (45%)</td>
                 <td>B.Sc. IT/CS (50%)</td>
             </tr>
+            </tbody>
              </table>
             <h1>Specialized & Vocational Courses</h1>
             <p>In addition to traditional degree programs, we offer various certificate and diploma courses in areas like Digital Marketing, Web Development, Data Analytics, and Soft Skills Development, providing specialized training for career enhancement.
